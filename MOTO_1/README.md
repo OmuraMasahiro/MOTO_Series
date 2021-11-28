@@ -19,11 +19,11 @@ web_auto.exeをクリックし、起動してください、初回は上記の�
 
 ### 2. アプリの使い方
 
-<img src="./img/app2.png" alt="" title="" width="500">
+<img src="./img/app2.png" alt="" title="" width="750">
 
 検索ボタンで雇用保険被保険者資格喪失届のデータファイルを選択し
 
-<img src="./img/app3.png" alt="" title="" width="500">
+<img src="./img/app3.png" alt="" title="" width="750">
 
 実行ボタンを押せば業務が終了します
 
