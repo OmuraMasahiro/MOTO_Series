@@ -13,7 +13,8 @@ def con_chrome(path):
     #合意画面
     ChromeOptions = webdriver.ChromeOptions()
     ChromeOptions.add_experimental_option('excludeSwitches', ['enable-logging'])
-    driver = webdriver.Chrome(ChromeDriverManager().install())
+    ChromeOptions.add_experimental_option('detach', True)
+    driver = webdriver.Chrome(ChromeDriverManager().install(),options=ChromeOptions)
     driver.get("https://hoken.hellowork.mhlw.go.jp/assist/001000.do?screenId=001000&action=koyohohiSoshitsuLink")
     driver.find_element_by_id('ID_chkDoi1').click()
     driver.find_element_by_id('ID_inputPrintButton').click()
